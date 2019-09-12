@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007543119F9AE1F21A212AD24ADD0A2F /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BBE8F1A6AF9667B03DEB1267A5A46 /* ColorSlider.swift */; };
+		13B3A798EAD4C2C6C190E19D84B5ED7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */; };
+		183CA52429B99D5FDF2EDADC3B181319 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E229E3F3827D3FF4928B42A51F5EA /* GradientView.swift */; };
+		385461BFE49D110D7D538BB3204F8DA4 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4EA7A21CE0866228F1E54974C3E92 /* Gradient.swift */; };
+		397961519D6A08B34EEFE60D751B8ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		4A718F8B0EB3B02499DC0CFEE4E41EED /* Pods-ARKitDraw-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 548C25750FFFDCB6AC6B1CD90B931BD8 /* Pods-ARKitDraw-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EE3357431E8BDDA11BA2006EC83180 /* ColorSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4D3B4EFC6C3A0347AB2D29519278E4 /* ColorSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756BFEA715DF9BC9B70BA89BE4D547DE /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C319DD461E3701A64F491A1FCE84F737 /* PreviewView.swift */; };
+		75BFEB5A2B38E8A9F8D3D57FAC07ADD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */; };
+		8BAF8C4F823D213D1403E6D4F65A132B /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB352C5FA0AAFC0019047FED2019E7CC /* HSBColor.swift */; };
+		9D21653FE95D89330B0D5D9BFD364C7E /* ColorSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8515351D1DC2D364FF6C1EB7E73CAF /* ColorSliderExtensions.swift */; };
+		A00C8164619283CDFA3E9445B6F5887C /* ColorSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469889593D9731B4BD45D1978174FD22 /* ColorSlider-dummy.m */; };
+		A3FA8AC5836D6C1D5DA708104CC6E88B /* DefaultPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD980E6BA39964A74F4E5C4F992E0D /* DefaultPreviewView.swift */; };
+		A4ABD0D17D3CA8F78C1DAC17DDBB8116 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */; };
+		CA1E96CE58E0337532878F55B5B9E21D /* Pods-ARKitDraw-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DED9BB4BC190E678BB053110D0DED9 /* Pods-ARKitDraw-dummy.m */; };
+		F201A20B764D55B6500A4658CB91E32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DEE1B07ED3C530B7651C93454E3C7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ECDB569A72EE56E4D38E3F077000A2;
+			remoteInfo = ColorSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0094F463BA4BDE4237EE4F6752DB702A /* Pods-ARKitDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARKitDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		0A941CEE3514A0B6B25B3B14FF2B7BF3 /* ColorSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFD980E6BA39964A74F4E5C4F992E0D /* DefaultPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultPreviewView.swift; path = Sources/DefaultPreviewView.swift; sourceTree = "<group>"; };
+		17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1E0C0B32327A67CD7C5228CE83028E27 /* ColorSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorSlider.xcconfig; sourceTree = "<group>"; };
+		2A1BBE8F1A6AF9667B03DEB1267A5A46 /* ColorSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSlider.swift; path = Sources/ColorSlider.swift; sourceTree = "<group>"; };
+		30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		407E229E3F3827D3FF4928B42A51F5EA /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Sources/GradientView.swift; sourceTree = "<group>"; };
+		469889593D9731B4BD45D1978174FD22 /* ColorSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorSlider-dummy.m"; sourceTree = "<group>"; };
+		49A4EA7A21CE0866228F1E54974C3E92 /* Gradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Sources/Internal/Gradient.swift; sourceTree = "<group>"; };
+		4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B34BB7381C1C35F3074EDA7AF49809A /* Pods-ARKitDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARKitDraw.release.xcconfig"; sourceTree = "<group>"; };
+		548C25750FFFDCB6AC6B1CD90B931BD8 /* Pods-ARKitDraw-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARKitDraw-umbrella.h"; sourceTree = "<group>"; };
+		567C2812F0F830DEBA5FEE860FF36BA5 /* ColorSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorSlider.modulemap; sourceTree = "<group>"; };
+		5C4D3B4EFC6C3A0347AB2D29519278E4 /* ColorSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorSlider-umbrella.h"; sourceTree = "<group>"; };
+		5F8515351D1DC2D364FF6C1EB7E73CAF /* ColorSliderExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderExtensions.swift; path = Sources/Internal/ColorSliderExtensions.swift; sourceTree = "<group>"; };
+		7454DD5B13269731ADE838C1261285D2 /* Pods-ARKitDraw-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARKitDraw-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98D95C4A24251D19F52988F3A6BA7AA4 /* Pods-ARKitDraw-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARKitDraw-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2DECDC31D989B912B8BFB61C012B335 /* Pods-ARKitDraw-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARKitDraw-frameworks.sh"; sourceTree = "<group>"; };
+		AC440DFE018D0571D4750B802D083B00 /* ColorSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ColorSlider-Info.plist"; sourceTree = "<group>"; };
+		BB352C5FA0AAFC0019047FED2019E7CC /* HSBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBColor.swift; path = Sources/Internal/HSBColor.swift; sourceTree = "<group>"; };
+		C19BD3915091B1FCCCF3159C7A94BA77 /* Pods_ARKitDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C319DD461E3701A64F491A1FCE84F737 /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Sources/PreviewView.swift; sourceTree = "<group>"; };
+		C66B1E07CCFB6CAF89B4377E5E92942D /* Pods-ARKitDraw.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARKitDraw.modulemap"; sourceTree = "<group>"; };
+		D400D031BA32A95EFD96F144AC7737D9 /* ColorSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorSlider-prefix.pch"; sourceTree = "<group>"; };
+		D47D5618A391D7DCD3BB9F48EBB01883 /* Pods-ARKitDraw-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARKitDraw-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1DED9BB4BC190E678BB053110D0DED9 /* Pods-ARKitDraw-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARKitDraw-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B61D2D3EAF479344D9FA00A9DA83438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B3A798EAD4C2C6C190E19D84B5ED7C /* CoreGraphics.framework in Frameworks */,
+				F201A20B764D55B6500A4658CB91E32D /* Foundation.framework in Frameworks */,
+				A4ABD0D17D3CA8F78C1DAC17DDBB8116 /* QuartzCore.framework in Frameworks */,
+				75BFEB5A2B38E8A9F8D3D57FAC07ADD4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D9DBD1088E1E968D8653CB12F886DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397961519D6A08B34EEFE60D751B8ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B8E9E259E226C78BFCD2785956E46B /* Pods-ARKitDraw */ = {
+			isa = PBXGroup;
+			children = (
+				C66B1E07CCFB6CAF89B4377E5E92942D /* Pods-ARKitDraw.modulemap */,
+				7454DD5B13269731ADE838C1261285D2 /* Pods-ARKitDraw-acknowledgements.markdown */,
+				D47D5618A391D7DCD3BB9F48EBB01883 /* Pods-ARKitDraw-acknowledgements.plist */,
+				E1DED9BB4BC190E678BB053110D0DED9 /* Pods-ARKitDraw-dummy.m */,
+				A2DECDC31D989B912B8BFB61C012B335 /* Pods-ARKitDraw-frameworks.sh */,
+				98D95C4A24251D19F52988F3A6BA7AA4 /* Pods-ARKitDraw-Info.plist */,
+				548C25750FFFDCB6AC6B1CD90B931BD8 /* Pods-ARKitDraw-umbrella.h */,
+				0094F463BA4BDE4237EE4F6752DB702A /* Pods-ARKitDraw.debug.xcconfig */,
+				4B34BB7381C1C35F3074EDA7AF49809A /* Pods-ARKitDraw.release.xcconfig */,
+			);
+			name = "Pods-ARKitDraw";
+			path = "Target Support Files/Pods-ARKitDraw";
+			sourceTree = "<group>";
+		};
+		1E8CA6847F100B0BC7487298634B29F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				567C2812F0F830DEBA5FEE860FF36BA5 /* ColorSlider.modulemap */,
+				1E0C0B32327A67CD7C5228CE83028E27 /* ColorSlider.xcconfig */,
+				469889593D9731B4BD45D1978174FD22 /* ColorSlider-dummy.m */,
+				AC440DFE018D0571D4750B802D083B00 /* ColorSlider-Info.plist */,
+				D400D031BA32A95EFD96F144AC7737D9 /* ColorSlider-prefix.pch */,
+				5C4D3B4EFC6C3A0347AB2D29519278E4 /* ColorSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorSlider";
+			sourceTree = "<group>";
+		};
+		5C5D3C442B85F8873E4F2C921D7DCB09 /* ColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				2A1BBE8F1A6AF9667B03DEB1267A5A46 /* ColorSlider.swift */,
+				5F8515351D1DC2D364FF6C1EB7E73CAF /* ColorSliderExtensions.swift */,
+				0EFD980E6BA39964A74F4E5C4F992E0D /* DefaultPreviewView.swift */,
+				49A4EA7A21CE0866228F1E54974C3E92 /* Gradient.swift */,
+				407E229E3F3827D3FF4928B42A51F5EA /* GradientView.swift */,
+				BB352C5FA0AAFC0019047FED2019E7CC /* HSBColor.swift */,
+				C319DD461E3701A64F491A1FCE84F737 /* PreviewView.swift */,
+				1E8CA6847F100B0BC7487298634B29F4 /* Support Files */,
+			);
+			path = ColorSlider;
+			sourceTree = "<group>";
+		};
+		62A7D255D04BA8E499FA0232E4379263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A941CEE3514A0B6B25B3B14FF2B7BF3 /* ColorSlider.framework */,
+				C19BD3915091B1FCCCF3159C7A94BA77 /* Pods_ARKitDraw.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D9DF860FAD2ABCEF64F9DF621958ED6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B8E9E259E226C78BFCD2785956E46B /* Pods-ARKitDraw */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A2A3F7BA6F1B5C27AF4FFCC6478FA4D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D3C442B85F8873E4F2C921D7DCB09 /* ColorSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD35F57B08FA07466EF52BE52CC46A1D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				A2A3F7BA6F1B5C27AF4FFCC6478FA4D8 /* Pods */,
+				62A7D255D04BA8E499FA0232E4379263 /* Products */,
+				8D9DF860FAD2ABCEF64F9DF621958ED6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD35F57B08FA07466EF52BE52CC46A1D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */,
+				4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */,
+				30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */,
+				1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37F9E0AA068250196AFF36CE2CED3AA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EE3357431E8BDDA11BA2006EC83180 /* ColorSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED9643BDD4241B8CFA1AD41B5F9E96B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A718F8B0EB3B02499DC0CFEE4E41EED /* Pods-ARKitDraw-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33ECDB569A72EE56E4D38E3F077000A2 /* ColorSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50E5B866DB8BD92E162B0BDFDA9BA42 /* Build configuration list for PBXNativeTarget "ColorSlider" */;
+			buildPhases = (
+				37F9E0AA068250196AFF36CE2CED3AA1 /* Headers */,
+				37772C2F7628C835F3B45ED2A57E0AF6 /* Sources */,
+				1B61D2D3EAF479344D9FA00A9DA83438 /* Frameworks */,
+				EDB4B32F0C2246B09FC35A2F781330DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSlider;
+			productName = ColorSlider;
+			productReference = 0A941CEE3514A0B6B25B3B14FF2B7BF3 /* ColorSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34AF0477B98596E91B13AF56E83BCBD5 /* Pods-ARKitDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F789417C6F52835931EA49B4A07AE3 /* Build configuration list for PBXNativeTarget "Pods-ARKitDraw" */;
+			buildPhases = (
+				4ED9643BDD4241B8CFA1AD41B5F9E96B /* Headers */,
+				4D5D01C463AC0C83FA2425E0C53C2CF4 /* Sources */,
+				39D9DBD1088E1E968D8653CB12F886DB /* Frameworks */,
+				A8B8936617AF184142206821AD8D1C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DA143126EA002FD11D65B955AB2EC6B /* PBXTargetDependency */,
+			);
+			name = "Pods-ARKitDraw";
+			productName = "Pods-ARKitDraw";
+			productReference = C19BD3915091B1FCCCF3159C7A94BA77 /* Pods_ARKitDraw.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 62A7D255D04BA8E499FA0232E4379263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33ECDB569A72EE56E4D38E3F077000A2 /* ColorSlider */,
+				34AF0477B98596E91B13AF56E83BCBD5 /* Pods-ARKitDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8B8936617AF184142206821AD8D1C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB4B32F0C2246B09FC35A2F781330DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37772C2F7628C835F3B45ED2A57E0AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C8164619283CDFA3E9445B6F5887C /* ColorSlider-dummy.m in Sources */,
+				007543119F9AE1F21A212AD24ADD0A2F /* ColorSlider.swift in Sources */,
+				9D21653FE95D89330B0D5D9BFD364C7E /* ColorSliderExtensions.swift in Sources */,
+				A3FA8AC5836D6C1D5DA708104CC6E88B /* DefaultPreviewView.swift in Sources */,
+				385461BFE49D110D7D538BB3204F8DA4 /* Gradient.swift in Sources */,
+				183CA52429B99D5FDF2EDADC3B181319 /* GradientView.swift in Sources */,
+				8BAF8C4F823D213D1403E6D4F65A132B /* HSBColor.swift in Sources */,
+				756BFEA715DF9BC9B70BA89BE4D547DE /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5D01C463AC0C83FA2425E0C53C2CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E96CE58E0337532878F55B5B9E21D /* Pods-ARKitDraw-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DA143126EA002FD11D65B955AB2EC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorSlider;
+			target = 33ECDB569A72EE56E4D38E3F077000A2 /* ColorSlider */;
+			targetProxy = 1DEE1B07ED3C530B7651C93454E3C7AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D2BAFC90C798C2076C9AC3D842B37A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B34BB7381C1C35F3074EDA7AF49809A /* Pods-ARKitDraw.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C58ABBFEE2B90384E52B96AB0057F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0C0B32327A67CD7C5228CE83028E27 /* ColorSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorSlider/ColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorSlider/ColorSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorSlider/ColorSlider.modulemap";
+				PRODUCT_MODULE_NAME = ColorSlider;
+				PRODUCT_NAME = ColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94B038D0BABBA8AA8090BDD61B06734E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0C0B32327A67CD7C5228CE83028E27 /* ColorSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorSlider/ColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorSlider/ColorSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorSlider/ColorSlider.modulemap";
+				PRODUCT_MODULE_NAME = ColorSlider;
+				PRODUCT_NAME = ColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AC60411E369A18CC0CB8B33E60735B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0094F463BA4BDE4237EE4F6752DB702A /* Pods-ARKitDraw.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50E5B866DB8BD92E162B0BDFDA9BA42 /* Build configuration list for PBXNativeTarget "ColorSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B038D0BABBA8AA8090BDD61B06734E /* Debug */,
+				8C58ABBFEE2B90384E52B96AB0057F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F789417C6F52835931EA49B4A07AE3 /* Build configuration list for PBXNativeTarget "Pods-ARKitDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60411E369A18CC0CB8B33E60735B32 /* Debug */,
+				4D2BAFC90C798C2076C9AC3D842B37A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
